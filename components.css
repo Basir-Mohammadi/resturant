@@ -1,0 +1,54 @@
+/* nav styles */
+body{
+    background-color: rgb(231, 221, 206);
+}
+.nav{
+    padding: 0 0;
+}
+.nav--icon,
+.nav--bgoverlay,
+.nav-close{
+    display: none;
+}
+
+.nav--wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav--list li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.nav--list, .nav-link{
+    font-size: 1.8rem;
+    font-family: 'Poppins';
+    color: var(--black-2);
+    padding: 0.5rem;
+}
+.nav--list li:hover .nav-link{
+    color:green;
+    
+}
+/* global button*/
+.btn{
+color: green;
+font-family:'Poppins';
+font-weight: 500;
+border-radius: 8px;
+font-size: 1.4rem;
+padding: 1.2rem 2rem;
+
+}
+.primary-btn{
+    color: white;
+    background: green;
+}
+
+@media only screen and(min-width:768px){
+    .btn{
+        padding: 1.3rem 2rem;
+        font-size: 2rem;
+    }
+}
